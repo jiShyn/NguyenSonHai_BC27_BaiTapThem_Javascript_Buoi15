@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<div class="container text-center">
-			<h1 class="my-5 fs-5">Tính thuế thu nhập cá nhân</h1>
+			<h1 class="my-5">Tính thuế thu nhập cá nhân</h1>
 			<div class="row my-5 text-center">
 				<div class="col-md-4">
 					<input type="text" name="" id="fullName" class="text-center w-100 rounded" placeholder="Nhập họ và tên">
@@ -23,15 +23,15 @@
 				</div>
 
 				<div class="col-md-4">
-					<input type="number" name="" id="amountPeople" class="text-center w-100 rounded" placeholder="Số người phụ thuộc">
+					<input type="number" name="" id="numOfDependents" class="text-center w-100 rounded" placeholder="Số người phụ thuộc">
 				</div>
 			</div>
 
 			<div class="w-25 mx-auto">
-				<button class="btn btn-primary rounded-pill px-3" onclick="getTaxableIncome()">Tính tiên tiền thuế</button>
+				<button class="btn btn-primary rounded-pill px-3" onclick="payTax()">Tính tiền thuế</button>
 			</div>
 
-			<div id="res" class="text-center"></div>
+			<div id="res" class="text-center mt-5 fs-5 bg-light text-primary"></div>
 		</div>
 			
 		<!-- Bootstrap JavaScript Libraries -->
